@@ -13,3 +13,4 @@ export default class Car {
     const ModelCar = this.constructor[Symbol.species];
     return new ModelCar();
   }
+}
